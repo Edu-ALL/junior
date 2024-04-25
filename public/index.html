@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <link href="/public/dist/output.css" rel="stylesheet" />
+
+    <!-- Font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="fixed top-0 left-0 right-0 bg-white z-[9999]">
+      <nav class="main-container flex items-center justify-between md:justify-start py-4 gap-8">
+        <div class="flex items-center">
+          <img src="/public/assets/icons/logo.png" alt="Logo" class="h-12 w-32 mr-2 object-contain" />
+        </div>
+        <div class="md:hidden">
+          <button id="hamburger" class="text-purple focus:outline-none">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+          </button>
+        </div>
+        <div id="menu" class="hidden md:flex items-center space-x-4">
+          <a href="#" class="text-purple font-primary text-sm font-semibold">ABOUT US</a>
+          <a href="#" class="text-purple font-primary text-sm font-semibold">PROGRAMS</a>
+          <a href="#" class="text-purple font-primary text-sm font-semibold">CONTACT US</a>
+        </div>
+      </nav>
+    </header>
+    <main class="mt-12">
+      <section
+        class="bg-banner bg-cover bg-bottom bg-fixed fixed w-full top-0 left-0 h-[92vh] right-0 -z-[9999] overflow-hidden"
+        id="hero-section"
+      >
+        <div class="main-container h-full py-12 relative ">
+          <div class="w-10 h-10 right-[15%] top-[20%] absolute">
+            <img src="assets/images/decor/decor-1.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          <div class="w-10 h-10 left-[8%] top-[35%] absolute">
+            <img src="assets/images/decor/decor-2.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          <div class="w-10 h-10 right-[10%] top-[55%] absolute">
+            <img src="assets/images/decor/decor-3.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          <div class="w-10 h-10 left-[40%] top-[58%] absolute">
+            <img src="assets/images/decor/decor-4.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          <div class="w-12 h-12 left-[15%] top-[65%] absolute">
+            <img src="assets/images/decor/decor-5.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          <div class="w-14 h-14 right-[17%] top-[70%] absolute">
+            <img src="assets/images/decor/decor-6.png" alt="decor" class="w-full object-contain decor" />
+          </div>
+          
+          <div class="w-[150vw] -left-[30%] right-[50%] top-[50%] absolute">
+            <img src="assets/images/hero-section/wave.png" alt="wave" class="w-full h-42 md:h-72 object-center" />
+          </div>
+          
+          <div class="w-full absolute pt-12 top-[15%] md:top-[10%] left-0 right-0 hero-brand">
+            <div class="flex flex-col items-center">
+              <img src="assets/icons/logo-big.png" class="max-w-60 md:max-w-md md:px-0" alt="EduALL Junior Logo" />
+              <h2 class="font-primary text-purple text-lg md:text-3xl font-semibold italic text-center mt-6">
+                Playful Learning Center for <br />
+                Kid's Interest & Skills Exploration
+              </h2>
+            </div>
+          </div>
+          <div class="w-full absolute bottom-0 left-0 right-0 hero-thumbnail">
+            <div class="max-w-2xl mx-auto">
+              <img src="assets/images/hero-section/thumnail.png" class="" alt="Thumbnail EduAll Junior" />
+            </div>
+          </div>
+          
+          
+        </div>
+      </section>
+      <section class="h-screen mt-[90vh]">
+        <img src="assets/images/about/background.png" class="object-contain" alt="background">
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- SCRIPT -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
