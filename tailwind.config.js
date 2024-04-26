@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('/public/assets/images/hero-section/background.png')",
+        banner: "url('/public/assets/images/decor/background.png')",
+        "background-form": "url('/public/assets/images/get-in-touch/background.png')",
       },
       colors: {
         // primary: "#120FFD",
@@ -12,6 +13,10 @@ module.exports = {
         // yellow: "#F4EA0F",
         purple: "#6C6CF6",
         red: "#FF2063",
+        yellow: "#FF9600",
+        green: "#4CC1A0",
+        dark: "#0D0D0D",
+        blue: "#00A3FF",
       },
       fontFamily: {
         primary: ["NeverMindRounded", "Wix Madefor Display", "sans-serif"],

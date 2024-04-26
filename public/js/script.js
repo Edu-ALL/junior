@@ -41,3 +41,33 @@ gsap.to(".decor", {
     scrub: true,
   },
 });
+
+gsap.to(".decor-about", {
+  x: 0,
+  y: -70,
+  rotate: "70deg",
+  duration: 1.5,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#about",
+    toggleActions: "play reverse play reverse",
+    start: "top 100%",
+    end: "top -100%",
+    scrub: true,
+  },
+});
+
+gsap.to(".decor-facilities", {
+  x: 0,
+  y: -70,
+  rotate: "70deg",
+  duration: 1.5,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#facilities",
+    toggleActions: "play reverse play reverse",
+    start: "top 100%",
+    end: "top -100%",
+    scrub: true,
+  },
+});
