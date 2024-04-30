@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('/public/assets/images/decor/background.png')",
-        "background-form": "url('/public/assets/images/get-in-touch/background.png')",
+        banner: "url('/public/assets/images/decor/background.webp')",
+        "background-form": "url('/public/assets/images/get-in-touch/background.webp')",
       },
       colors: {
         // primary: "#120FFD",
